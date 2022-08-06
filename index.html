@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Мое портфолио</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,27 +14,66 @@
 </head>
 
 <body>
-	<header>
-		<div class="nav-bar">
-			<img src="images/logo.svg" alt="logo img">
-			<nav class="navigation">
-				<ul class="nav-list">
-					<li class="nav-item">
-						<a class="nav-link active" href="index.html">Главная</a>
+	<div class="nav-bar container">
+		<img src="images/logo.svg" alt="logo img">
+		<nav class="navigation">
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Главная</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Проекты</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Обо мне</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Связь</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<!-- Конец шапки -->
+	<header class="container">
+		<img class="avatar" src="images/sticker.png" alt="аватар">
+		<div class="header-text">
+			<strong class="header-strong">Привет 👋</strong>
+			<h1 class="header-desc">
+				<span class="header-span">Я фронтенд-разработчик и веб-дизайнер</span> <br>
+				Меня зовут Илья Гриняк и я делаю <br>
+				сайты для людей и компаний
+			</h1>
+			<div class="header-items">
+				<ul class="social-item">
+					<li class="social">
+						<a href="#" class="social-link">
+							<img src="Icons/linkedin.svg" alt="ЛинкедИн" class="social-img"></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Проекты</a>
+					<li class="social">
+						<a href="#" class="social-link">
+							<img src="Icons/github.svg" alt="Гитхаб" class="social-img"></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Обо мне</a>
+					<li class="social">
+						<a href="#" class="social-link">
+							<img src="Icons/stackoverflow.svg" alt="Стэк" class="social-img"></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Связь</a>
+					<li class="social">
+						<a href="#" class="social-link">
+							<img src="Icons/twitter.svg" alt="Твиттер" class="social-img"></a>
+					</li>
+					<li class="social">
+						<a href="#" class="social-link">
+							<img src="Icons/youtube.svg" alt="Ютуб" class="social-img"></a>
 					</li>
 				</ul>
-			</nav>
-		</div>
+				<a class="down-link" href="#" download=""><img class="icon" src="Icons/skrep.svg" alt="Скрепка"> <span
+						class="cv-text">Скачать резюме</span></a>
+			</div>
 	</header>
+
+
 </body>
+
+
 
 </html>
