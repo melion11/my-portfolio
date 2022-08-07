@@ -86,3 +86,78 @@ border-bottom: 2px solid #BF7506 ;
 .icon {
 margin-right: 4px;
 }
+
+.project-title {
+font-weight: 700;
+font-size: 48px;
+line-height: 125%;
+letter-spacing: -0.03em;
+color: #BF7506;
+}
+.card-text-wrapper {
+padding: 16px;
+}
+.card1 {
+max-width: 400px;
+margin-bottom: 40px;
+}
+.card-title {
+font-weight: 700;
+font-size: 24px;
+line-height: 135%;
+letter-spacing: -0.02em;
+color: #BF7506;
+margin-top: 0px;
+margin-bottom: 8px;
+}
+.tags {
+list-style-type: none;
+display: flex;
+align-items: center;
+padding: 0px;
+margin-top: 8px;
+margin-bottom: 16px;
+}
+.tag {
+display: inline-block;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+text-decoration: none;
+color: #211B12;
+background: #fff;
+padding: 4px 8px;
+border: 1px solid #DD9C3C;
+border-radius: 4px;
+margin-right: 4px;
+}
+.card-desc {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #211B12;
+}
+.card-buttons {
+display: flex;
+align-items: center;
+}
+.card-button {
+display: flex;
+align-items: center;
+padding: 7px 8px;
+margin-right: 25px;
+text-decoration: none;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #211B12;
+border-bottom: 2px solid #DD9C3C;
+}
+.card-button-icon {
+margin-right: 4px;
+}
+.cards {
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
