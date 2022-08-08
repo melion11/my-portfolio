@@ -151,23 +151,25 @@
 			<form class="form" action="#"></form>
 			<div class="input-group">
 				<label class="input-label" for="username">Имя</label>
-				<input id="username" class="input" type="text">
+				<input id="username" name="client_name" class="input" type="text">
 			</div>
 			<div class="input-group">
 				<label class="input-label" for="useremail">Email</label>
-				<input id="useremail" class="input" type="text">
+				<input id="useremail" name="client_email" class="input" type="text">
 			</div>
 			<div class="input-group">
 				<label class="input-label" for="usertext">Сообщение</label>
-				<textarea class="input textarea" id="usertext" cols="30" rows="10"></textarea>
+				<textarea class="input textarea" name="client_message" id="usertext" cols="30" rows="10"></textarea>
 			</div>
 			<div class="button-group">
-				<button class="button-send" type="submit"><img class="icon" src="Icons/send.svg" alt="Отправить"><span
-						class="button-text">Отправить</span>
+				<button class="button-send" type="submit"><img class="icon" src="Icons/send.svg" alt="Отправить">
+					<span class="button-text">Отправить</span>
+				</button>
 			</div>
+			</form>
 		</div>
 	</section>
-
+	<script src="js/main.js"></script>
 
 </body>
 
