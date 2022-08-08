@@ -6,6 +6,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .nav-bar {
+padding: 40px;
 display: flex;
 align-items: center;
 justify-content: space-between; 
@@ -119,6 +120,7 @@ align-items: center;
 padding: 0px;
 margin-top: 8px;
 margin-bottom: 16px;
+
 }
 .tag {
 display: inline-block;
@@ -132,6 +134,7 @@ padding: 4px 8px;
 border: 1px solid #DD9C3C;
 border-radius: 4px;
 margin-right: 4px;
+margin-bottom: 4px;
 }
 .card-desc {
 font-weight: 400;
@@ -157,6 +160,9 @@ border-bottom: 2px solid #DD9C3C;
 }
 .card-button-icon {
 margin-right: 4px;
+}
+.card-image {
+max-width: 100%;
 }
 .cards {
 display: flex;
@@ -230,7 +236,14 @@ line-height: 125%;
 color: #211B12;
 }
 .feedback {
+position: relative;
 padding: 80px 0 160px;
+}
+.hand{
+position: absolute;
+width: 30%;
+top: 20%;
+right: 0;
 }
 .input-group {
 position: relative;
@@ -249,7 +262,7 @@ top: 0;
 left: 16px;
 }
 .input {
-width: 435px;
+width: 100%;
 height: 56px;
 border: 3px solid #E0DEDC;
 border-radius: 4px;
@@ -278,4 +291,84 @@ cursor: pointer;
 .button-group {
 display: flex;
 justify-content: flex-end;
+}
+@media (max-width: 1024px) {
+.container {
+	max-width: 760px;
+}
+.card1 {
+	max-width: 350px;
+}
+}
+@media (max-width: 796px) {
+.container {
+	max-width: 576px;
+}
+.avatar {
+	max-width: 150px;
+}
+.header-strong {
+	font-size: 36px;
+}
+.header-desc {
+	font-size: 18px;
+}
+.down-link {
+	margin-left: 15px;
+}
+.card1 {
+	max-width: 45%;
+}
+.card-text-wrapper {
+	padding: 8px 0px;
+}
+.developer {
+	flex-direction: column;
+}
+.developer-photo {
+	width: 100%;
+	height: 350px;
+	margin-bottom: 30px;
+}
+.developer-about {
+	padding-left: 0px;
+}
+.hand {
+	display: none;
+}
+}
+@media (max-width: 600px) {
+	.container {
+	max-width: 90%;
+}
+	.nav-bar, 
+	.cards, 
+	.header-items {
+	flex-direction: column;
+}
+	.header {
+	flex-direction: column;
+	padding-top: 10px;
+	text-align: center;
+}
+	.down-link {
+	margin-left: 0px;
+}
+	.card1 {
+	max-width: 100%;
+}
+	.tags {
+	flex-wrap: wrap;
+}
+}	
+@media (max-width: 480px) {
+	.container {
+	max-width: 90%;
+	}
+	.nav-list {
+	flex-direction: column;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+	
 }
